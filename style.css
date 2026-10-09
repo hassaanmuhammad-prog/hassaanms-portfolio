@@ -49,3 +49,30 @@ header {
 .navbar a:focus {
     background-color: #0E331B;
 }
+
+/* Main content: centered column that shrinks on small screens */
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+/* Footer: dark green bar with white text, centred */
+footer {
+    background-color: #0E331B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Footer paragraphs: removes extra spacing so the bar stays compact */
+footer p {
+    margin: 0.25rem 0;
+}
+
+/* Footer links: white so they stay readable on the dark green background */
+footer a {
+    color: #FFFFFF;
+}
+
