@@ -36,7 +36,15 @@ _TODO: List the widths used for mobile, tablet, and laptop, which CSS file handl
 _TODO: State which page and element uses the linear gradient, and which uses the angled linear gradient._
 
 ## Colour Scheme
-_TODO: Name the Adobe Color scheme used, link or screenshot it, and list the hex codes with where each is used._
+Using a monochromatic green scheme created with Adobe Color. Text will use neutral black or white for readability
+
+|    Colour  |     HEX  |                  Used for                     |
+|------------|----------|-----------------------------------------------|
+| Mint       | `#ADEEC5`| Page background                               |
+| Sage Grey  | `#A2BAAB`| Cards and form background                     |
+| Mid Green  | `#5B876B`| Borders and Dividers                          |
+| Forest     | `#285438`| Navigation background, gradient colour        |
+| Dark Green | `#0E331B`| Header and footer background, gradient colour |
 
 ## Testing and Validation
 _TODO: Results from W3C HTML validator, W3C CSS validator, W3C link checker, spell check, and WAVE accessibility test._
