@@ -4,8 +4,8 @@ A personal portfolio website built with HTML5 and CSS3 for INFR3120 (Web and Scr
 The site has four separate pages: Home, About Me, Projects, and Contact Me.
 
 ## Links
-_TODO_
-
+Live Site: https://hassaanmuhammad-prog.github.io/hassaanms-portfolio/
+Repository link: https://github.com/hassaanmuhammad-prog/hassaanms-portfolio 
 ## File Structure
 - index.html (Home page)
 - style.css (Base stylesheet)
