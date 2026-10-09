@@ -1,2 +1,49 @@
 # hassaanms-portfolio
-A HTML project designed to showcase my portfolio
+A personal portfolio website built with HTML5 and CSS3 for INFR3120 (Web and Scripting Programming), Assignment 1, Fall 2026.
+
+The site has four separate pages: Home, About Me, Projects, and Contact Me.
+
+## Links
+_TODO_
+
+## File Structure
+- index.html (Home page)
+- style.css (Base stylesheet)
+- images/, videos/, documents/ (Media and Documents)
+
+## Pages
+
+### Home (`index.html`)
+- Welcome message and a short introduction, with a link to the Projects page
+- Uses semantic tags: `header` (site name and navigation), `nav` (links to all four pages), `main` (page content), `section` (grouped content), and `footer` (contact email and copyright)
+- The header and footer repeat on every page; only the `main` content changes
+- Includes the viewport meta tag so the layout scales correctly on mobile devices
+- Links to `style.css` for styling
+
+### About Me (`about.html`)
+_TODO_
+
+### Projects (`projects.html`)
+_TODO_
+
+### Contact Me (`contact.html`)
+_TODO_
+
+## Responsive Design (Viewports)
+_TODO: List the widths used for mobile, tablet, and laptop, which CSS file handles each, and why those widths were chosen._
+
+## Gradients
+_TODO: State which page and element uses the linear gradient, and which uses the angled linear gradient._
+
+## Colour Scheme
+_TODO: Name the Adobe Color scheme used, link or screenshot it, and list the hex codes with where each is used._
+
+## Testing and Validation
+_TODO: Results from W3C HTML validator, W3C CSS validator, W3C link checker, spell check, and WAVE accessibility test._
+
+## External Code and Sources
+_TODO: list any code from outside the lectures with the source and author. If none, state that all code is my own._
+
+## Contact
+- Email: [hassaan.muhammad@ontariotechu.net](mailto:hassaan.muhammad@ontariotechu.net)
+
