@@ -7,9 +7,9 @@ body {
     color: #000000;
 }
 
-/* Header: dark green banner at the top of every page */
+/* Header: linear gradient running left to right across the banner */
 header {
-    background-color: #0E331B;
+    background: linear-gradient(to right, #0E331B, #285438);
     color: #FFFFFF;
     text-align: center;
     padding: 1rem;
@@ -57,9 +57,9 @@ main {
     padding: 1.5rem 1rem;
 }
 
-/* Footer: dark green bar with white text, centred */
+/* Footer: angled linear gradient at 135 degrees, dark green to forest green */
 footer {
-    background-color: #0E331B;
+    background: linear-gradient(135deg, #285438, #0E331B);
     color: #FFFFFF;
     text-align: center;
     padding: 1rem;
@@ -107,4 +107,12 @@ button {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+}
+
+/* Project cards: sage background with a mid green border, one per row on mobile */
+.project-card {
+    background-color: #A2BAAB;
+    border: 2px solid #5B876B;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
