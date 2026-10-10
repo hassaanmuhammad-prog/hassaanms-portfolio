@@ -76,3 +76,35 @@ footer a {
     color: #FFFFFF;
 }
 
+/* Form container: sage background with a mid green border, fills the available width */
+form {
+    background-color: #A2BAAB;
+    padding: 1rem;
+    border: 2px solid #5B876B;
+}
+
+/* Labels sit on their own line above each field */
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Fields fill the width of the form, box-sizing keeps padding inside that width */
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+/* Submit button: forest green with white text */
+button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #285438;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
