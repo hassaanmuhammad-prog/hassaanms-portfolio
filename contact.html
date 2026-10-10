@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Hassaan Muhammad Portfolio</title>
+
+    <!-- Links the shared stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header: site name and main navigation, same on every page -->
+    <header>
+        <p class="site-title">Hassaan Muhammad - Portfolio</p>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content: page heading and the contact form -->
+    <main>
+        <h1>Contact Me</h1>
+        <p>Feel free to send me any questions, comments, and project related inquiries.</p>
+
+        <!-- Form: no server is connected, so this demonstrates the layout and validation only -->
+        <form method="get">
+
+            <!-- Name: required, between 2 and 50 characters -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+
+            <!-- Email: type="email" makes the browser check the address format -->
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Phone: pattern requires the format 905-555-1234 -->
+            <label for="phone">Cell Number:</label>
+            <input type="tel" id="phone" name="phone" required
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                   placeholder="123-456-7890"
+                   title="Enter a phone number ie. xxx-xxx-xxxx">
+
+            <!-- Comments: required, at least 10 characters -->
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="6" required minlength="10"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer: contact email and copyright, same on every page -->
+    <footer>
+        <div class="footer-content">
+            <p>Email: <a href="mailto:hassaan.muhammad@ontariotechu.net">hassaan.muhammad@ontariotechu.net</a></p>
+            <p>&copy; 2026 Hassaan Muhammad</p>
+        </div>
+    </footer>
+
+</body>
+</html>
