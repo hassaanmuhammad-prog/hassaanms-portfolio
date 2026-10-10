@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Hassaan Muhammad Portfolio</title>
-    <link rel="styleheet" href="style.css">
+
+    <!--Links the shared stylesheet-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <header>
+        <p class="site-title">Hassaan Muhammad - Portfolio</p>
 
-<main>
-    <h1>My Projects</h1>
+            <!--Marks this next block as a main navigation for efficient use by users-->
+            <nav>
+                <!--Unordered list, as order of sequence doesnt matter-->
+                <ul class="navbar">
+                    <!--anchor links to other pages of the same site-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+            
+                </ul>
+            </nav>
+    </header>
 
-    <section>
-        <article class="project-card">
-            <header>
-                <h2>ARMv7 vs RISC-V Architectures</h2>
-            </header>
-            <p>This project compares ARMv7 and RISC-V architectures through hands-on assembly programming exercises. We implemented a calculator on ARMv7 and a Fibonacci generator on RISC-V, analyzing instruction sets and performance.</p>
-        </article>
 
-        <article class="project-card">
-            <header>
-                <h2>Networking 1 - Corporate Network Design</h2>
-            </header>
-            <p>Designed a corporate network with three buildings using IPv4 addressing and static routing. Implemented and tested the topology in Packet Tracer to confirm connectivity between hosts and internet access.</p>
-        </article>
+    <!--Main content: the page heading and my four projects-->
+    <main>
+        <h1>My Projects</h1>
 
-        <article class="project-card">
-            <header>
-                <h2>Networking 2 - North American Crypto Network</h2>
-            </header>
-            <p>Created addressing and subnetting for a crypto mining company based across North America.</p>
-        </article>
+        <!--Groups all project cards together-->
+        <section>
 
-        <article class="project-card">
-            <header>
-                <h2>Python Calculator GUI</h2>
-            </header>
-            <p>Built a calculator in Python with a graphical interface using Tkinter. Users click buttons to enter numbers and choose addition, subtraction, multiplication, or division, and the result appears on screen. It also handles division by zero without crashing.</p>
-        </article>
-    </section>
-</main>
+            <h2>Project List:</h2>
 
-</body>
+            <article class="project-card">
+            
+                <h3>ARMv7 vs RISC-V Architectures</h3>
+            
+                <p>This project compares ARMv7 and RISC-V architectures through hands-on assembly programming exercises. We implemented a calculator on ARMv7 and a Fibonacci generator on RISC-V, analyzing instruction sets and performance.</p>
+            </article>
+
+            <article class="project-card">
+                
+                <h3>Networking 1 - Corporate Network Design</h3>
+            
+                <p>Designed a corporate network with three buildings using IPv4 addressing and static routing. Implemented and tested the topology in Packet Tracer to confirm connectivity between hosts and internet access.</p>
+            </article>
+
+            <article class="project-card">
+                
+                <h3>Networking 2 - North American Crypto Network</h3>
+                
+                <p>Designed a pilot network for a fictional company that makes and distributes crypto mining hardware, with sites in Chicago, Vancouver, Toronto, and Mexico. The sites were connected over a WAN using BGP and set up for full remote management, all built and tested in Packet Tracer.</p>
+            </article>
+
+            <article class="project-card">
+                
+                <h3>Python Calculator GUI</h3>
+            
+                <p>Built a calculator in Python with a graphical interface using Tkinter. Users click buttons to enter numbers and choose addition, subtraction, multiplication, or division, and the result appears on screen. It also handles division by zero without crashing.</p>
+            </article>
+        </section>
+    </main>
+
+
 
 <!--closing area for contact info-->
     <footer>
@@ -55,4 +80,5 @@
                 <p>&copy; 2026 Hassaan Muhammad</p>
             </div>
     </footer>
+</body>
 </html>
