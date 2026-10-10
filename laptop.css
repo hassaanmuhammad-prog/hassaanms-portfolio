@@ -1,0 +1,18 @@
+/* Laptop (1024px and wider): wider content column and larger text */
+main {
+    max-width: 70rem;
+}
+
+body {
+    font-size: 1.1rem;
+}
+
+/* Laptop: form stays a readable width instead of stretching across the screen */
+form {
+    max-width: 40rem;
+}
+
+/* Laptop: larger nav links */
+.navbar a {
+    padding: 1rem 1.75rem;
+}
