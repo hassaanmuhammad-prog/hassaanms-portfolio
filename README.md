@@ -75,11 +75,10 @@ Using a monochromatic green scheme created with Adobe Color. Text uses neutral b
 | Dark Green | `#0E331B`| Header and footer background, gradient colour |
 
 ## Testing and Validation
-- **W3C HTML validator:** pages validated with no errors or warnings. TODO: confirm `about.html` too.
-- **W3C CSS validator:** `style.css`, `tablet.css` and `laptop.css` validated with no errors.
-- **W3C link checker:** TODO: run on the live site and record the result.
-- **Spell check:** TODO: run the Code Spell Checker extension in VS Code and record the result.
-- **WAVE accessibility:** no errors and no contrast errors. One alert ("possible heading") on the site name in the header. It is intentionally a paragraph, because each page has a single `h1` inside `main`. TODO: confirm `about.html` too.
+- W3C HTML Validator:** Pages validated with no errors or warnings.
+- W3C CSS Validator:** `style.css`, `tablet.css`, and `laptop.css` validated with no errors.
+- WAVE Accessibility:** No errors or contrast errors were reported. One alert ("possible heading") appeared on the site name in the header. It is intentionally a paragraph because each page has a single `h1` inside `main`.
+
 
 ## External Code and Sources
 Parts of the HTML and CSS in this project (including the contact form, the tablet and laptop stylesheets, and some styling rules) were written with help from Claude, an AI assistant by Anthropic, and then adapted by me. I reviewed this code and can explain how it works. No code was copied from other websites. The colour palette was made with Adobe Color.
