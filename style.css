@@ -116,3 +116,19 @@ button {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
+/* Profile photo: scales with the screen and never overflows its container */
+.profile-photo {
+    display: block;
+    max-width: 100%;
+    width: 15rem;
+    height: auto;
+    margin: 1rem auto;
+}
+
+/* Intro video: fluid width so it shrinks on small screens */
+.intro-video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
