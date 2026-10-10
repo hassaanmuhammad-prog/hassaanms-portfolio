@@ -1,4 +1,7 @@
 # hassaanms-portfolio
+100928683
+Hassaan Muhammad
+
 A personal portfolio website built with HTML5 and CSS3 for INFR3120 (Web and Scripting Programming), Assignment 1, Fall 2026.
 
 The site has four separate pages: Home, About Me, Projects, and Contact Me.
@@ -9,12 +12,16 @@ The site has four separate pages: Home, About Me, Projects, and Contact Me.
 
 ## File Structure
 - `index.html` (Home page)
+- `about.html` (About Me page with photo and intro video)
 - `projects.html` (Projects page)
 - `contact.html` (Contact page with validated form)
 - `style.css` (Base stylesheet, mobile first)
 - `tablet.css` (Styles for screens 768px and wider)
 - `laptop.css` (Styles for screens 1024px and wider)
-- `images/`, `videos/`, `documents/` (Media and documents)
+- `images/` (Profile photo and video poster)
+- `videos/` (Introduction video)
+- `documents/` (Documents)
+- `README.md` (This file)
 
 ## Pages
 
@@ -26,7 +33,11 @@ The site has four separate pages: Home, About Me, Projects, and Contact Me.
 - Links to `style.css` for styling
 
 ### About Me (`about.html`)
-_TODO_
+- My own photo and a short introduction in a `section` with its own `h2` heading
+- A second `section` with an embedded introduction video (about 60 seconds) using the HTML5 `video` element
+- The video has the `controls` attribute so visitors can play, pause and change the volume, and a `poster` image that shows before it plays
+- The photo and video are scaled with CSS so they shrink on small screens
+
 
 ### Projects (`projects.html`)
 - Four projects, each in its own `article` with a heading and a short description
@@ -64,11 +75,14 @@ Using a monochromatic green scheme created with Adobe Color. Text uses neutral b
 | Dark Green | `#0E331B`| Header and footer background, gradient colour |
 
 ## Testing and Validation
-_TODO: Results from W3C HTML validator, W3C CSS validator, W3C link checker, spell check, and WAVE accessibility test._
+- **W3C HTML validator:** pages validated with no errors or warnings. TODO: confirm `about.html` too.
+- **W3C CSS validator:** `style.css`, `tablet.css` and `laptop.css` validated with no errors.
+- **W3C link checker:** TODO: run on the live site and record the result.
+- **Spell check:** TODO: run the Code Spell Checker extension in VS Code and record the result.
+- **WAVE accessibility:** no errors and no contrast errors. One alert ("possible heading") on the site name in the header. It is intentionally a paragraph, because each page has a single `h1` inside `main`. TODO: confirm `about.html` too.
 
 ## External Code and Sources
-_TODO: list any code from outside the lectures with the source and author. If none, state that all code is my own._
+Parts of the HTML and CSS in this project (including the contact form, the tablet and laptop stylesheets, and some styling rules) were written with help from Claude, an AI assistant by Anthropic, and then adapted by me. I reviewed this code and can explain how it works. No code was copied from other websites. The colour palette was made with Adobe Color.
 
 ## Contact
 - Email: [hassaan.muhammad@ontariotechu.net](mailto:hassaan.muhammad@ontariotechu.net)
-

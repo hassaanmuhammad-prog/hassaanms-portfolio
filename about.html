@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Hassaan Muhammad Portfolio</title>
+
+    <!-- Base styles, then tablet and laptop styles that load by screen width -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 1024px)">
+</head>
+
+<body>
+
+    <!-- Header: site name and main navigation, same on every page -->
+    <header>
+        <p class="site-title">Hassaan Muhammad - Portfolio</p>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content: photo, short introduction and intro video -->
+    <main>
+        <h1>About Me</h1>
+
+        <!-- Bio section: my photo and a short introduction -->
+        <section>
+            <h2>Who I Am</h2>
+            <img src="images/hassaanpfp.JPG" alt="Photo of Hassaan Muhammad" class="profile-photo">
+            <p>Hi, I'm Hassaan, a student in Networking and IT Security at Ontario Tech University. I'm interested in ethical hacking and in defending and debugging client infrastructure. Outside of school, I enjoy drawing and playing a few instruments.</p>
+        </section>
+
+        <!-- Video section: embedded intro video with controls and a poster image -->
+        <section>
+            <h2>Introduction Video</h2>
+            <video controls poster="images/poster.PNG" class="intro-video">
+                <source src="videos/aboutme.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!--closing area for contact info-->
+    <footer>
+        <!--a wrapper, gives css a way to style the footer-content -->
+        <div class="footer-content">
+            <p>Email: <a href="mailto:hassaan.muhammad@ontariotechu.net">hassaan.muhammad@ontariotechu.net</a></p>
+            <p>&copy; 2026 Hassaan Muhammad</p>
+        </div>
+    </footer>
+
+</body>
+</html>
